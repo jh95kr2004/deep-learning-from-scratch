@@ -2,7 +2,7 @@ import pickle
 import numpy as np
 from origin.dataset.mnist import load_mnist
 
-from .math import Math
+from common.math import Math
 
 class PretrainedNet:
     ''' Pretrained network of ch03

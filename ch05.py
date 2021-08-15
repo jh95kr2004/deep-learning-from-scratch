@@ -1,8 +1,8 @@
 from typing import OrderedDict
 import numpy as np
 
-from .layer import AffineLayer, ReLULayer, SoftmaxWithCEELayer
-from .ch04 import TwoLayerNet as TwoLayerNetNumerical
+from common.layer import AffineLayer, ReLULayer, SoftmaxWithCEELayer
+from ch04 import TwoLayerNet as TwoLayerNetNumerical
 
 class TwoLayerNet(TwoLayerNetNumerical):
     ''' Two layer net of ch05

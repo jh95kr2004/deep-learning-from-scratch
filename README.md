@@ -1,4 +1,4 @@
 ## Execution
 ```
-python -m study.chXX    ex) python -m study.ch03
+python chXX     ex) python ch03
 ```

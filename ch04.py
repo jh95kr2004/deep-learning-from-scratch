@@ -2,9 +2,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 from origin.dataset.mnist import load_mnist
 
-from .math import Math
-from .loss import Loss
-from .grad import Grad
+from common.math import Math
+from common.loss import Loss
+from common.grad import Grad
 
 class TwoLayerNet:
     ''' Two layer net of ch04
