@@ -60,6 +60,8 @@ class TwoLayerNet(TwoLayerNetNumerical):
         return grads
 
     def grad_check(self):
+        print("-- Check gradient --")
+
         x_batch = self.x_train[:3]
         t_batch = self.t_train[:3]
 

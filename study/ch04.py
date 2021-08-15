@@ -90,7 +90,7 @@ class TwoLayerNet:
                 test_acc = self.accuracy(self.x_test, self.t_test)
                 train_accs.append(train_acc)
                 test_accs.append(test_acc)
-                print("train acc, test acc | " + str(train_acc) + ", " + str(test_acc))
+                print(i, "\ttrain acc, test acc | " + str(train_acc) + ", " + str(test_acc))
 
         x = np.arange(len(train_accs))
 
