@@ -1,7 +1,7 @@
 import pickle
 from typing import OrderedDict
 import numpy as np
-from dataset.mnist import load_mnist
+from origin.dataset.mnist import load_mnist
 import matplotlib.pyplot as plt
 
 class Loss:
@@ -181,7 +181,7 @@ class PretrainedNet:
         (self.x_train, self.t_train), (self.x_test, self.t_test) = \
             load_mnist(normalize=True, flatten=True, one_hot_label=False)
 
-        with open("ch03/sample_weight.pkl", "rb") as f:
+        with open("origin/ch03/sample_weight.pkl", "rb") as f:
             self.network = pickle.load(f)
 
     def forward(self, x, axis=None):
